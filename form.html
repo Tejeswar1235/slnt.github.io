@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>form</title>
+    <link rel="icon" href="th.jpg">
+</head>
+<body bgcolor="Yellow">
+    <fieldset>
+        <legend>Customer Entry</legend>
+        <form>
+            <label for="name">Name</label>
+            <input type="text"placeholder="ex:Tejesh" required id="name" name="name"><br>
+            <label for="food">Food item</label>
+            <input type="text"placeholder="ex:Biryani"required id="food" name="food"><br>
+            <label for="">Delivery Time</label>
+            <input list="Time" requiredid="time" name="time"><br>
+            <datalist id="Time">
+                <option>1hr</option>
+                <option>2hr</option>
+                <option>3hr</option>
+                <option>4hr</option>
+            </datalist>
+            <input type="Submit">
+        </form>
+    </fieldset>
+    
+</body>
+</html>
